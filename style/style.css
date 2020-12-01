@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(235, 237, 238);
+  }
+  
+  p {
+    text-align: center;
+  }
+span{
+  font-size:large;
+  color:rgb(26, 6, 112)
+}
+  .timestamp{
+    font-size: medium;
+    color:rgb(53, 90, 121)
+  }
