@@ -4,6 +4,8 @@ body {
   
   p {
     text-align: center;
+    font-size:large;
+    color:rgb(26, 6, 112)
   }
 span{
   font-size:large;
