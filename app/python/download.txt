@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:fontWeight="normal" xml:id="style1"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" xml:id="region0"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="33333334t" end="52500000t" region="region0" xml:id="subtitle0"><span style="style1">- ¿Tienes reloj?</span><br/><span style="style1">- No.</span></p>
+<p begin="53333334t" end="71666667t" region="region0" xml:id="subtitle1"><span style="style1">Hay un sistema para compartir.</span></p>
+<p begin="72500000t" end="100833334t" region="region0" xml:id="subtitle2"><span style="style1">Si tu oponente no tiene,</span><br/><span style="style1">te prestaremos uno.</span></p>
+<p begin="101666667t" end="123333334t" region="region0" xml:id="subtitle3"><span style="style1">La partida comienza en 20 minutos.</span></p>
+<p begin="124166667t" end="136250000t" region="region0" xml:id="subtitle4"><span style="style1">¿Cuál es tu puntaje?</span></p>
+<p begin="143750000t" end="155000000t" region="region0" xml:id="subtitle5"><span style="style1">No tengo puntaje.</span></p>
+<p begin="161250000t" end="177500000t" region="region0" xml:id="subtitle6"><span style="style1">¿Has jugado en un torneo?</span></p>
+<p begin="178333334t" end="190000000t" region="region0" xml:id="subtitle7"><span style="style1">No.</span></p>
+<p begin="219166667t" end="244583334t" region="region0" xml:id="subtitle8"><span style="style1">- ¿Estás segura de esto?</span><br/><span style="style1">- Estoy segura.</span></p>
+<p begin="245416667t" end="264583334t" region="region0" xml:id="subtitle9"><span style="style1">No tenemos sección de mujeres.</span></p>
+<p begin="282083334t" end="302916667t" region="region0" xml:id="subtitle10"><span style="style1">- Te pondré en principiante.</span><br/><span style="style1">- No lo soy.</span></p>
+<p begin="303750000t" end="314583334t" region="region0" xml:id="subtitle11"><span style="style1">No importa.</span></p>
+<p begin="321250000t" end="335416667t" region="region0" xml:id="subtitle12"><span style="style1">Si no tienes puntaje,</span></p>
+<p begin="336250000t" end="362500000t" region="region0" xml:id="subtitle13"><span style="style1">eres principiante,</span><br/><span style="style1">como los de menos de 1600.</span></p>
+<p begin="383750000t" end="402083334t" region="region0" xml:id="subtitle14"><span style="style1">- ¿Cuál es el premio?</span><br/><span style="style1">- Veinte.</span></p>
+<p begin="402916667t" end="430000000t" region="region0" xml:id="subtitle15"><span style="style1">- ¿Y la otra sección?</span><br/><span style="style1">- En el abierto, 100.</span></p>
+<p begin="430833334t" end="453333334t" region="region0" xml:id="subtitle16"><span style="style1">¿Es ilegal que juegue en el abierto?</span></p>
+<p begin="454166667t" end="478750000t" region="region0" xml:id="subtitle17"><span style="style1">- No exactamente.</span><br/><span style="style1">- Ponme en el abierto.</span></p>
+<p begin="486250000t" end="531666667t" region="region0" xml:id="subtitle18"><span style="style1">Hay tres tipos ahí con más de 1800 puntos.</span><br/><span style="style1">Y puede aparecer Beltik.</span></p>
+<p begin="537500000t" end="553333334t" region="region0" xml:id="subtitle19"><span style="style1">Te van a comer cruda.</span></p>
+<p begin="605833334t" end="614583334t" region="region0" xml:id="subtitle20"><span style="style1">"Harmon".</span></p>
+</div>
+</body>
+</tt>
