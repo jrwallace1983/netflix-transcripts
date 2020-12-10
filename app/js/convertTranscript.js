@@ -1,24 +1,20 @@
 const lineReader = require('line-reader');
-let lines = []
+let lines = [];
+let beginTimeRegex = /begin="(.*?)t"/ ;/*regex to capture in-between the begin=" and t"*/ 
+let endTimeRegex = /end="(.*?)t"/; /*regex to capture in-between the begin=" and t"*/ 
 
 lineReader.eachLine('../python/download.txt', (line,last)=>{
     if(line.includes('<p')){
-        lines.push(line)
+        lines.push(line);
     }
     
 }, ()=>{
     for(let i = 0; i<lines.length; i++){
-    let lineList = lines[i].split(' ');
-    for(let a = 0; a<lineList.length; a++){
-    if(lineList[a].includes('begin=')){
-        console.log(lineList[a])
-        let beginSeconds = lineList[a].replace(/[begin=t"]/g,'')
-        console.log(beginSeconds)
-    }else if(lineList[a].includes('end=')){
-        console.log(lineList[a])
-        let endSeconds = lineList[a].replace(/[end=t"]/g,'')
-        console.log(endSeconds)
-    }
-        }
+        //console.log(lines[i])
+        let beginTime = lines[i].match(beginTimeRegex);//beginTimeRegex.exec(lines[i])
+        console.log(beginTime);
+        let endTime = lines[i].match(endTimeRegex);
+        console.log(endTime);
+
     }
 })
